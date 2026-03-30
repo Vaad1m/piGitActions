@@ -12,8 +12,6 @@ jobs:
     permissions:
       contents: read
 
-    needs: build
-
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 21
@@ -32,8 +30,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      
-    needs: build
     
     steps:
     - uses: actions/checkout@v4
