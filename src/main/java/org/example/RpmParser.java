@@ -186,8 +186,7 @@ public class RpmParser {
             return 2;
         } else if (op.isOperation() && (op.value() == 1 || op.value() == 0)) {
             return 1;
-        } else {
+        } else
             return 0;
-        }
     }
 }

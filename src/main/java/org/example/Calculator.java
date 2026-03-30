@@ -25,7 +25,7 @@ public class Calculator {
                 } else if (lexeme.value() == 1) {
                     stack.push(b - a);
                 } else if (lexeme.value() == 2) {
-                    stack.push(b * a);
+                    stack.push(b - a);
                 } else if (lexeme.value() == 3) {
                     stack.push(b / a);
                 }
